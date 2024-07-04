@@ -1,0 +1,16 @@
+table,
+th,
+td 
+{
+    border: 1px solid black;
+}
+
+.autor 
+{
+    float: right;
+}
+
+.comments 
+{
+    margin-top: 10%;
+}
