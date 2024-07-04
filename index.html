@@ -187,46 +187,30 @@
   их подлинности. Потому что он быстрый, компактный и легок в реализации.
 </p>
 <p>
-  Дано
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/841b174ecad9b3a8f10e6e84c25342534068aa1f"
-alt="formula1">
+  Дано &epsilon;, <i>x</i><sub>0</sub>
 <br>
-  Инициализировать
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/23da38e31194b9ae0524ec18c8489693f3be5389"
-alt="formula1">
+  Инициализировать <i>C</i><sub>0</sub>
 <br>
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6307c8a99dad7d0bcb712352ae0a748bd99a038b"
-alt="formula1">
+<i>k</i> = 0
 <br>
-<code>While</code>
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8e85ce0deb65169ea7c6d4b0603037c100fe5d0d"
-alt="formula2">
+<strong>While</strong> ||&#8711;<i>f</i> || > &epsilon;
 <br>
   &emsp;&emsp;&emsp;найти направление
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e749b989ed667b9416a5503dfa902901aecab451"
-alt="formula3">
+  <i>p<sub>k</sub> = -C<sub>k</sub>&#8711; f<sub>k</sub></i>
 <br>
   &emsp;&emsp;&emsp;вычислить
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/272c45d501ed6ee3f1772286189acb74f9660f69"
-alt="formula4">
-,
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/717fd9a74d91add9739563c16ac357ce33924860"
-alt="formula5">
-  удовлетворяет условиям Вольфе
+  <i>x<sub>k+1</sub> = x<sub>k</sub> + &alpha;<sub>k</sub> p<sub>k</sub></i>,
+  &alpha;<sub>k</sub> удовлетворяет условиям Вольфе
 <br>
-&emsp;&emsp;&emsp;обозначить
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fbdd7312f50e7d8bcf5737918fbf4c7612e2f515"
-alt="formula6">
+  &emsp;&emsp;&emsp;обозначить
+  <i>s<sub>k</sub> = x<sub>k+1</sub> - x<sub>k</sub></i>
   и
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fbdd7312f50e7d8bcf5737918fbf4c7612e2f515"
-alt="formula7">
+  <i>y<sub>k</sub> = &#8711; f<sub>k+1</sub> - &#8711; f<sub>k</sub></i>
 <br>
   &emsp;&emsp;&emsp;вычислить
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4ab76165ee52a0638cb2ff277eecc1d5daadcaac"
-alt="formula8">
+  <i>C<sub>k+1</sub></i>
 <br>
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7daac515060e17c7b2b5ef6ea21ebe7fba066a93"
-alt="formula9">
+<i>k = k + 1</i>
 </p>
 </article>
 <article>
